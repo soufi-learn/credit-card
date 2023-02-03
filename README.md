@@ -2,4 +2,4 @@
 
 <p>Design Saderat Credit Card With HTML &amp; CSS ✔</p>
 
-<img src="./credit-card.jpg" alt="credit card" width="50%"/>
+<img src="./credit-card.jpg" alt="credit card" width="65%"/>
