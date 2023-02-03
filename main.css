@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  direction: rtl;
+}
+
+body {
+  background: #444;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sahel;
+}
+@font-face {
+  font-family: sahel;
+  src: url(./fonts/Sahel.ttf) format(ttf);
+}
+
+.credit-card-wrapper {
+  width: 600px;
+  border-radius: 10px;
+  background: #c4cace;
+  padding: 0.8rem;
+  background-image: url(./media/card-patern.png);
+}
+
+.credit-card-wrapper .top-card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* TOP CARD LOGO */
+.credit-card-wrapper .top-card-wrapper .saderat-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO IMG */
+.credit-card-wrapper .top-card-wrapper .saderat-logo-wrapper .saderat-logo-img {
+  width: 70px;
+}
+
+/* LOGO TITLE */
+.credit-card-wrapper
+  .top-card-wrapper
+  .saderat-logo-wrapper
+  .saderat-logo-title-wrapper {
+  margin-right: 0.8rem;
+}
+
+.credit-card-wrapper
+  .top-card-wrapper
+  .saderat-logo-wrapper
+  .saderat-logo-title-wrapper
+  .saderat-logo-title {
+  width: 150px;
+}
+
+.credit-card-wrapper
+  .top-card-wrapper
+  .saderat-logo-wrapper
+  .saderat-logo-title-wrapper
+  .saderat-logo-en-title {
+  color: #29166f;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: -0.2rem;
+}
+
+/* CARD BARCODE */
+.credit-card-wrapper .card-barcode-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.credit-card-wrapper .card-barcode-wrapper .card-barcode-img {
+  width: 70px;
+}
+.credit-card-wrapper .card-barcode-wrapper .card-barcode-text {
+  font-size: 0.7rem;
+  color: #29166f;
+  font-weight: bold;
+  margin-top: 0.3rem;
+}
+
+/* CARD BG SHAPE AND ANGLE ICON */
+.credit-card-wrapper .card-bg-shape-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-right: -0.9rem;
+}
+.credit-card-wrapper .card-bg-shape-wrapper .bg-shape-img {
+  width: 80%;
+}
+.credit-card-wrapper .card-bg-shape-wrapper .left-angle-icon {
+  font-size: 1.9rem;
+  color: #29166f;
+  margin-left: 1rem;
+}
+
+/* CARD INFO AND USER INFO */
+.credit-card-wrapper .card-info-wrapper {
+  margin-top: 0.5rem;
+}
+.credit-card-wrapper .credit-number {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  direction: ltr;
+}
+.credit-card-wrapper .user-info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.credit-card-wrapper .user-info-wrapper .user-card-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.credit-card-wrapper .user-info-wrapper .expiration-date-wrapper {
+  display: flex;
+}
